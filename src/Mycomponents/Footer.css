@@ -8,7 +8,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
     font-family: Arial, sans-serif;
-    margin-top: 15px ;
+    margin-top: 0 ;
+    height:40%;
   }
   
   .footer-section {
@@ -24,7 +25,7 @@
   }
   
   .logo-image {
-    width: 100px;       /* Adjust width as needed */
+    width: 100px;       
     height: auto;
   }
   
@@ -34,15 +35,25 @@
     color: #ff7f27;   /* Orange shade like the site */
   }
   
-  .footer-subtitle {
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-  }
+  
   
   .footer-text {
     font-size: 14px;
     margin-top: 10px;
     line-height: 1.6;
+  }
+  .nav-section a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    transition: color 0.3s;
+    padding-left: 10px;
+  
+     gap: 20px;
+  }
+
+  
+  .nav-section a:hover {
+    color: orangered;
   }
   

@@ -19,7 +19,7 @@ function Contact() {
                 <div className="about-heading" style={{ backgroundImage: `url(${blurr})` }}>
                   <div className="overlay">
                     <h1>CONTACT US</h1>
-                    <p>Home &gt; CONTACT US</p>
+                   
                   </div>
                 </div>
   
@@ -31,15 +31,15 @@ function Contact() {
        
         <div className="contact-box">
           <img src={location} alt="" className="contact-icon" />
-          <p>V.R.C. Center, Near Muthukuru Bus Stand, Nellore</p>
+          <p>PRAMEELA TOWERS 2ND FLOOR , KODAD</p>
         </div>
         <div className="contact-box">
           <img src={call}alt="./images/call.png" className="contact-icon" />
-          <p>9989309198 <br /> 9032452904</p>
+          <p>8143123768 <br /> 6300400137</p>
         </div>
         <div className="contact-box">
           <img src={email} alt="./images/email.pn" className="contact-icon" />
-          <p>catcomputerpoint@gmail.com</p>
+          <p>janipashamd1@gmail.com</p>
         </div>
       </div>
     </section>

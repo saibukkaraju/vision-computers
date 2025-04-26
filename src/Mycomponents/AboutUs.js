@@ -4,6 +4,10 @@ import blurr from './images/blurr.jpeg'; // Replace with your blurred imagei // 
 import vision7 from './images/vision7.jpeg';
 import './Testimonials.js'
 import Testimonials from './Testimonials.js';
+import Footer from './Footer.js';
+//import TopSection from './TopSection.js';
+import './Footer.js'
+//import TopSection from './TopSection.js';
 const AboutUs = () => {
   return (
     <div className="about-container">
@@ -12,7 +16,7 @@ const AboutUs = () => {
       <div className="about-heading" style={{ backgroundImage: `url(${blurr})` }}>
         <div className="overlay">
           <h1>About Us</h1>
-          <p>Home &gt; ABOUT US</p>
+          
         </div>
       </div>
 
@@ -39,7 +43,13 @@ const AboutUs = () => {
             <Testimonials/>
           }
         </div>
+        
   </div>
+  <div lassName="Footer-section">
+  {
+    <Footer/>
+  }
+</div>
       </div>
 
     

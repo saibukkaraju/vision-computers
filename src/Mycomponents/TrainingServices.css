@@ -1,18 +1,19 @@
 /* Entire container for spacing */
 .training-container {
   padding: 0;
+  
 }
 
 
 /* Heading Bar */
 .about-heading {
-  height: 90px;
+  height: 70px;
   background-size: auto;
   background-position: 60px;
   background-position-y: 25%;
   position: relative;
   
-   margin-top: 15px;
+   margin-top: 11.5%;
   display: flex;
   align-items: center;
   justify-content: top;
@@ -24,8 +25,8 @@
   background-color: rgba(255, 102, 0, 0.7); /* Orange blur overlay */
   width: 100%;
   height: 100%;
-  margin-top: 15px;
-  color: white;
+  margin-top: 5px;
+  color: #fff3e0;
   text-align: center;
   padding-top: 40px;
 }
@@ -36,11 +37,7 @@
   margin-top: -22px;
 }
 
-.overlay p {
-  font-size: 20px;
-  letter-spacing: 1px;
-  margin-top: 0;
-}
+
 
 /* Grid Layout: 3 columns */
 .services-grid {
@@ -94,4 +91,7 @@
   font-size: 18px;
   font-weight: 600;
   color: #333;
+}
+.background-section{
+  background-color: #fff3e0;
 }

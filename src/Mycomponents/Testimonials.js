@@ -11,21 +11,21 @@ const testimonials = [
       role: 'Student',
       rating: 5,
       feedback: 'The Java training at Vision computers was great. The trainers explained everything very well.',
-      //avatar: avataar4, // Use imported image
+      
     },
     {
-      name: 'Mamatha.K',
+      name: 'Sai kumar',
       role: 'Student',
       rating: 4,
       feedback: 'Python course was highly practical, right from the basics to advanced concepts.',
-      //avatar: avataar2, // Use imported image
+      
     },
     {
       name: 'Amulya .B',
       role: 'Student',
       rating: 5,
       feedback: 'Vision computers provided me Webdevelopment training with real world projects',
-      //avatar: avataar3, // Use imported image
+      
     },
     
   ];
@@ -38,7 +38,7 @@ const testimonials = [
           {testimonials.map((item, index) => (
             <div className="testimonial-card" key={index}>
               <div className="quote-mark">"</div>
-              <img src={item.avatar} alt={item.name} className="testimonials-avatar" />
+              
               <h3>{item.name}</h3>
               <p className="role">{item.role}</p>
               <div className="stars">{'★'.repeat(item.rating)}</div>

@@ -5,22 +5,31 @@ import visionlogo from './images/visionlogo.png';
 
 
 const MenuBar = () => {
+  
   return (
-    <header className="header">
-          <div className="left-section">
-            <img src={visionlogo} alt="./images/visionlogo.png" className="logo" />
-          </div>
-    <nav className='menu-bar'>
-      <ul>
-      <li><Link to="/">HOME</Link></li> 
-        <li><Link to="/Courses">COURSES</Link></li>
-        <li><Link to="/AboutUs">ABOUTUS</Link></li>
-        <li><Link to="/Contact">CONTACT</Link></li>
-      </ul>
-    </nav>
     
-    </header>
-  );
-};
-
+   
+      <>
+        {/* Accessible animated top scroll bar */}
+        <div className="top-scroll-bar">
+          <div className="scroll-text" role="status" aria-live="polite">
+            🎉 Admissions Open for New Batches | Contact us for more info! 📞 8143123768.  YOUR SUCCESS IS OUR VISION.
+          </div>
+        </div>
+  
+        {/* Main fixed header */}
+        <div className="main-header">
+          <div className="logo-section">
+            <img src={visionlogo} alt="./images/visionlogo.png" className="logo-img" />
+          </div>
+          <div className="nav-section">
+            <Link to="/">HOME</Link>
+            <Link to="/courses">COURSES</Link>
+            <Link to="/aboutus">ABOUT </Link>
+            <Link to="/contact">CONTACT</Link>
+          </div>
+        </div>
+      </>
+    );
+  };
 export default MenuBar;

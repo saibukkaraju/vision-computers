@@ -1,6 +1,8 @@
 import React from 'react';
 import './TrainingServices.css';
 import CourseModules from './CourseModules';
+//import CourseScroller from './CourseScroller';
+import CourseViewer from './CourseViewer';
 //import Footer from './Footer';
 import basicCs from './images/basicCS.jpeg';
 import c from './images/c.png';
@@ -15,6 +17,9 @@ import js1 from './images/js1.png';
 import interviewskills from './images/interviewskills.jpeg';
 import msoffice from './images/ms office.jpeg';
 import blurr from './images/blurr.jpeg';
+//import CourseViewer from './CourseViewer';
+//import CourseScroller from './CourseScroller';
+//import KeyFacts from './KeyFacts';
 
 
 
@@ -35,15 +40,19 @@ const services = [
 
 const TrainingServices = () => {
   return (
+    
+    
+
     <div className="about-container">
 
     {/* Heading Bar */}
     <div className="about-heading" style={{ backgroundImage: `url(${blurr})` }}>
       <div className="overlay">
         <h1>COURSES</h1>
-        <p>HOME &gt; COURSES</p>
+        
       </div>
     </div>
+   
       
       <div className="services-grid">
         {services.map((service, index) => (
@@ -53,11 +62,16 @@ const TrainingServices = () => {
           </div>
         ))}
       </div>
-      <div className='CourseModule-section'>
+      <div className='Scroller-section'>
         <CourseModules/>
         
       </div>
-       
+      
+      <div className='Scroller-section'>
+        <CourseViewer/>
+        
+      </div>
+     
     </div>
   );
 };

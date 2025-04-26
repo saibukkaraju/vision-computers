@@ -1,7 +1,7 @@
 // src/pages/Home.js
 import React from 'react';
 import Classroom from './Classroom';
-//import Introduction from './Introduction';
+import KeyFacts from './KeyFacts';
 import OurVision  from './OurVision';
 import Scrollcourses from './Scrollcourses';
 import Footer from './Footer';
@@ -14,6 +14,7 @@ const Home = () => {
     <Classroom/>
     <OurVision/>
     <Scrollcourses/>
+    <KeyFacts/>
     <Footer/>
     </div>
   );

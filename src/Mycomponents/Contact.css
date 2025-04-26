@@ -2,6 +2,7 @@
     text-align: center;
     padding: 10px;
     background: #ffccbc;
+    margin-top: 11.5%;
   }
   
   .Contact {
@@ -10,6 +11,7 @@
     height: 10px; /* Adjust height as needed */
     background-color: #f68712; /* Solid orange background */
     overflow: hidden; /* Clip image if it overflows */
+    margin-top: 20%;
   }
   .contact-section {
     display: flex;
@@ -77,7 +79,7 @@
     }
   }
   .about-heading {
-    height: 90px;
+    height: 80px;
     background-size: auto;
     background-position: 60px;
     background-position-y: 25%;

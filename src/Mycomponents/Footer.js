@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 import visionlogo from './images/visionlogo.png'; // Update this path as per your project
 
 const Footer = () => {
@@ -14,29 +15,25 @@ const Footer = () => {
             <div className="footer-subtitle">COMPUTERS</div>
           </div>
         </div>
-        <p className="footer-text">
-          Recognized by the Govt. of A.P.<br />
-          and an ISO 9001:2015 certified institute
-        </p>
+        
       </div>
         {/* Quick Links */}
         <div className="footer-section">
         <h3>Quick Links</h3>
-        <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Courses</li>
-          <li>Gallery</li>
-          <li>Verify</li>
-        </ul>
+         <div className="nav-section">
+                    <Link to="/">HOME</Link><br></br>
+                    <Link to="/courses">COURSES</Link><br></br>
+                    <Link to="/aboutus">ABOUT </Link><br></br>
+                    <Link to="/contact">CONTACT</Link><br></br>
+                  </div>
       </div>
 
       {/* Location + Contact */}
       <div className="footer-section">
         <h3>Location</h3>
-        <p>V.R.C. Center<br />Near Muthukuru Bus Stand,<br />Nellore – 524001.</p>
+        <p>PRAMEELA TOWERS<br />Near  Bus Stand,<br />KODAD – 508206.</p>
         <h3>Contact Us</h3>
-        <p>0861-2306523<br />9032452904</p>
+        <p>8143123768<br />6300400137</p>
       </div>
     </div>
   );
