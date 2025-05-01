@@ -23,7 +23,7 @@ import AboutUs from './Mycomponents/AboutUs';
 function App() {  
 
 return (
-  <Router basename="/visioncomputers"> {/* 👈 Important for GitHub Pages */}
+<Router basename="/vision-computers"> {/* 👈 Important for GitHub Pages */}
     <MenuBar />
 
     <Routes>
