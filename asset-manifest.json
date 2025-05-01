@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/visioncomputers/static/css/main.82abf23f.css",
-    "main.js": "/visioncomputers/static/js/main.6851408c.js",
+    "main.js": "/visioncomputers/static/js/main.6b45ae1c.js",
     "static/js/453.a9f64e2d.chunk.js": "/visioncomputers/static/js/453.a9f64e2d.chunk.js",
     "static/media/pageone.png": "/visioncomputers/static/media/pageone.91765a3a93ffab18f9d9.png",
     "static/media/pagetwo.png": "/visioncomputers/static/media/pagetwo.6a24bad7223b8901e53e.png",
@@ -23,11 +23,11 @@
     "static/media/online.jpeg": "/visioncomputers/static/media/online.015120017207ea735725.jpeg",
     "index.html": "/visioncomputers/index.html",
     "main.82abf23f.css.map": "/visioncomputers/static/css/main.82abf23f.css.map",
-    "main.6851408c.js.map": "/visioncomputers/static/js/main.6851408c.js.map",
+    "main.6b45ae1c.js.map": "/visioncomputers/static/js/main.6b45ae1c.js.map",
     "453.a9f64e2d.chunk.js.map": "/visioncomputers/static/js/453.a9f64e2d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82abf23f.css",
-    "static/js/main.6851408c.js"
+    "static/js/main.6b45ae1c.js"
   ]
 }
